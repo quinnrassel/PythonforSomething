@@ -1,0 +1,23 @@
+3+2==5
+3-2==1
+4/2==2
+2*2==4
+5//2==2
+numLaptops=7
+laptopCost=600
+price=numLaptops*laptopCost
+print("Total cost of laptops: $",format(price,'.2f'))
+print("Hello"*10)
+
+number = 1
+if num <= 10:
+    print("num is <= 10")
+while number <= 10:
+    if number % 2 == 0:
+        print(number, end= " ")
+    number = number + 1
+
+n = int(input("Enter a number:"))
+while number <=100:
+    print(n)
+n=n+n
