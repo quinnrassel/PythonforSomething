@@ -21,3 +21,27 @@ n = int(input("Enter a number:"))
 while number <=100:
     print(n)
 n=n+n
+
+
+x=15
+if x < 25:
+    print("Smaller")
+if x > 30:
+    print("Bigger")
+print("Finish")
+
+x=10
+print("Before 10")
+if x==10:
+    print("Is 10")
+    print("still 5")
+print("Before 11")
+if x==11:
+    print('is 11')
+    print('still 11')
+
+#file example
+fhand=open('fileexample', 'r')
+#lists example
+grocerylist = ['bananas', 'bread', 'peanut butter']
+print(grocerylist)
