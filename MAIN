@@ -133,3 +133,20 @@ fhand=open('fileexample', 'r')
 #lists example
 grocerylist = ['bananas', 'bread', 'peanut butter']
 print(grocerylist)
+
+word =dict()
+word['friend'] = 2
+word['friends'] = 3
+word['family'] = 10
+print(word)
+print(word['friends'])
+word['friend'] = word['friend'] + 1
+print(word)
+
+
+d = {'a':10, 'b':1, 'c':12}
+e = sorted(d.items())
+e
+for k, v in sorted(d.items()):
+    print(k, v)
+
